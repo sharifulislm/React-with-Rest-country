@@ -1,25 +1,62 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Country from './components/Countries/Country';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<Country> </Country>
+ 
     </div>
   );
 }
+
+                                                                      
+
+
+
+
+
+
+
+
+
+// pratace Old way 
+
+// function LoadCountris(){
+//   const [countries, setCountries ] = useState([]);
+//  useEffect( () => {
+//    fetch('https://restcountries.com/v3.1/all')
+//    .then(rest => rest.json())
+//    .then(data => setCountries(data));
+
+//  },[])
+
+//   return (
+//     <div>
+//  <h1> rest countres </h1> 
+//  {console.log(countries)}
+
+//  <h3> Avalilable countres: {countries.length} </h3>
+
+// {
+  
+//   countries.map(country => <Country name = {country.name.common} population = {country.population}> </Country> )
+// }
+
+//     </div>
+//   )
+// }
+// function Country(props){
+//   return (
+//     <div>
+
+//       <h2>Name: {props.name} </h2>
+//       <h2>population: {props.population} </h2>
+//     </div>
+//   )
+// }
+
 
 export default App;
