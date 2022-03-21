@@ -4,11 +4,11 @@ import './Hedar.css';
 
 const Hedar = () => {
     return (
-        <div>
-            <h2> welcome to my React website</h2>
-            <nav>
+        <div className='heder-nav'>
+       
+            <nav className='navbars'>
              <a href="/home"> Home</a>
-             <a href="/home"> Shop</a>
+             <a href="/home"> Menu</a>
              <a href="/home"> About </a>
 
             </nav>

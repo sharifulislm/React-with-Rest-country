@@ -1,9 +1,10 @@
 import React from 'react';
+import './Parson.css'
 
 const Parson = () => {
     return (
         <div>
-            <h2> show Parson </h2>
+            <h2>  Sharifulislam@copyright </h2>
             
         </div>
     );

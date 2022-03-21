@@ -3,10 +3,18 @@ import './App.css';
 import Country from './components/Countries/Country';
 
 
+
+import Hedar from './components/Hedar/Hedar';
+import Parson from './components/Parson/Parson';
+
+
 function App() {
   return (
     <div className="App">
+      <Hedar> </Hedar>
 <Country> </Country>
+<Parson> </Parson>
+
  
     </div>
   );
